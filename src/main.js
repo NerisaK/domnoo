@@ -1,14 +1,13 @@
 import Vue from 'vue'
 import VueRes from 'vue-resource'
 import App from './App.vue'
-import { MdButton, MdDrawer, MdCard } from 'vue-material/dist/components'
+import { MdButton, MdCard } from 'vue-material/dist/components'
 import VueScrollReveal from 'vue-scroll-reveal'
 import 'vue-material/dist/vue-material.min.css'
 
 Vue.use(VueRes)
 
 Vue.use(MdButton)
-Vue.use(MdDrawer)
 Vue.use(MdCard)
 
 Vue.use(VueScrollReveal, {
