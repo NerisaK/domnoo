@@ -2,7 +2,7 @@
     <div>
         <carousel :per-page="1" :mouse-drag="true" :pagination-enabled="false">
             <slide v-for="(slide, index) in slides" :key="index">
-                <div class="slider_bck" :style="{'background':`url(${slide.background})`}">
+                <div class="slider_bg" :style="{'background':`url(${slide.background})`}">
                     <div class="container slider-container">
                         <div class="text">{{slide.text}}</div>
                         <div class="image">

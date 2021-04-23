@@ -1,5 +1,5 @@
 <template>
-    <div class="container newsl_container">
+    <div class="container news_container">
         <h2>Join our newsletter</h2>
         <div class="form">
             <input type="text" name="" id="" v-model="email">

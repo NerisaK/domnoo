@@ -43,10 +43,6 @@ header .nav img {
     cursor: pointer;
 }
 
-header .side-drawer {
-    background: #fff;
-}
-
 footer {
     margin-top: 130px;
     background: #212121;
@@ -71,7 +67,7 @@ footer .container {
                 SLIDER
 ==================================*/
 
-.slider_bck {
+.slider_bg {
     height: 850px;
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -138,28 +134,28 @@ footer .container {
     padding: 40px 0px 70px 0px;
 }
 
-.call_us_container  .first {
+.call_us_container  .hungry {
     padding: 20px 0px;
 }
-.call_us_container  .first h1 {
+.call_us_container  .hungry h1 {
     font-size: 80px;
     margin: 0px;
     line-height: 150px;
     color:#fff;
 }
 
-.call_us_container .second  {
+.call_us_container .icons  {
     height:200px;
 }
 
-.call_us_container .third {
+.call_us_container .call {
     font-weight: 700;
     font-size: 60px;
     line-height: 150px;
     color:#fff;
 }
 
-.call_us_container .third span:first-child {
+.call_us_container .call span:first-child {
     color: #171717;
 }
 
@@ -169,43 +165,43 @@ footer .container {
 
 
 
-.newsl_container h2 {
+.news_container h2 {
     font-size: 28px;
     color: #343434;
     text-align: center;
 }
 
-.newsl_container .form {
+.news_container .form {
     text-align: center;
 }
-.newsl_container .form input {
+.news_container .form input {
     font-size: 20px;
     box-sizing: border-box;
     padding: 10px;
     border: 1px solid #d7d7d7;
 }
-.newsl_container .form button {
+.news_container .form button {
     background: #c10929;
     color: #fff;
     font-size: 20px;
     padding: 10px;
 }
 
-.newsl_container .small {
+.news_container .small {
     width: 460px;
     margin: 0 auto;
     text-align: center;
     font-size: 12px;
 }
 
-.newsl_container .error_label {
+.news_container .error_label {
     text-align: center;
     margin: 20px 0px;
     color: #c10929;
     font-size: 20px;
 }
 
-.newsl_container .success_label {
+.news_container .success_label {
     text-align: center;
     margin: 20px 0px;
     color: #2196F3;
